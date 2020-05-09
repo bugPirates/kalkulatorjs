@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>kalkulator</title>
-    <link rel="stylesheet" href="css|js/master.css">
+    <link rel="stylesheet" href="asset/master.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
@@ -35,6 +35,24 @@
 
       </div>
     </div>
-    <script src="css|js/kalkulator.js"></script>
+    <div class="history card">
+      <h2>Riwayat Perhitungan</h2>
+      <table>
+        <thead>
+          <tr>
+            <td>Angka Pertama</td>
+            <td>Operator</td>
+            <td>Angka Kedua</td>
+            <td>Hasil</td>
+          </tr>
+        </thead>
+        <tbody id="historyList">
+
+        </tbody>
+      </table>
+
+    </div>
+    <script src="asset/storage.js"></script>
+    <script src="asset/kalkulator.js"></script>
   </body>
 </html>
